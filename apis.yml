@@ -1,8 +1,25 @@
 aid: verse-enterprises
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verse-enterprises.png
 name: Verse Enterprises
-description: 'Verse Enterprises is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Verse, Inc. is a San Francisco-based clean energy software company, founded
+  in 2022 and backed by GV (Google Ventures), that helps organizations understand, plan,
+  procure, and operate clean energy portfolios. Its AI-powered platform, Aria, is modular
+  and app-based, turning complex energy, market, and financial data into finance-ready
+  energy intelligence so enterprises can connect to the grid faster, contain electricity
+  costs and risk, and control assets across every market and hour. Verse raised a $20.5M
+  Series A led by GV, with participation from Coatue, CIV, and MCJ Collective, to help
+  organizations reduce electricity costs and emissions.'
 url: https://raw.githubusercontent.com/api-evangelist/verse-enterprises/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Energy
+- Clean Energy
+- Climate
+- Artificial Intelligence
+- Energy Management
+- Sustainability
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://verse.inc
+- type: Blog
+  url: https://verse.inc/category/guides/
+- type: WellKnown
+  url: well-known/verse-enterprises-well-known.yml
+- type: SecurityTxt
+  url: well-known/verse-enterprises-security.txt
+- type: DomainSecurity
+  url: security/verse-enterprises-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/verse-enterprises-vulnerability-disclosure.yml
+- type: Security
+  url: https://verse.inc/.well-known/security.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
